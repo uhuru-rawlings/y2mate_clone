@@ -38,7 +38,12 @@ nav li a:hover,.navbar-brand span:hover{
 .nav-item{
     height: 100%;
 }
-
+.form-control, .btn{
+    font-size: 18px;
+}
+::placeholder{
+    font-size: 18px;
+}
 .navbar-toggler-icon{
     color: #C23A42 !important;
 }
