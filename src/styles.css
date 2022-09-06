@@ -3,14 +3,17 @@
 body{
     background-color: #F9F9F9;
     font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }
 .inner_body_special{
     width: 70%;
     margin: auto;
 }
 nav li a{
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    text-decoration: none !important;
 }
 .navbar-brand .img{
     height: 45px;
