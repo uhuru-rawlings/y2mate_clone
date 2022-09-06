@@ -38,3 +38,7 @@ form .form-control{
     text-decoration: none;
     color: #C23A42;
 }
+.download_section h2{
+    font-size: 29px;
+    font-weight: 500;
+}

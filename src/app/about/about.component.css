@@ -1,3 +1,16 @@
 .top_icons{
     font-size: 26px;
 }
+.icons h3{
+    font-size: 23px;
+    color: #C23A42;
+    font-weight: 700;
+}
+section h3{
+    font-size: 23px;
+    font-weight: 700;
+}
+.col h6{
+    font-size: 16px;
+    font-weight: 700;
+}
