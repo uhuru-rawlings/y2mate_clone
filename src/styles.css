@@ -5,6 +5,7 @@ body{
     font-family: Roboto, sans-serif;
     font-size: 18px;
     font-weight: 300;
+    color: rgb(41, 58, 70);
 }
 .inner_body_special{
     width: 70%;

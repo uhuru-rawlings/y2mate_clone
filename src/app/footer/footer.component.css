@@ -1,0 +1,24 @@
+footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid #ebebeb;
+}
+p.lists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+li a,p{
+    font-size: 14px;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: rgb(41, 58, 70);
+}
+li a:hover{
+    color: #C23A42;
+}
