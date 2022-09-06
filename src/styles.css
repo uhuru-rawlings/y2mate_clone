@@ -1,6 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
 /* @import "~bootstrap/dist/css/bootstrap.css" */
+body{
+    background-color: #F9F9F9;
+    font-family: Roboto, sans-serif;
+}
 .inner_body_special{
     width: 70%;
     margin: auto;
+}
+nav li a{
+    font-size: 14px;
+    font-weight: 300;
+}
+.navbar-brand .img{
+    height: 45px;
+    width: 45px;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand span{
+    font-weight: 900;
+    margin-left: 10px;
+    /* color: #F34F68; */
+}
+nav li a:hover,.navbar-brand span:hover{
+    color: #C23A42 !important;
+}
+.nav-item:hover{
+    /* height: 100% !important; */
+    background-color: #f3f3f3;
+}
+.nav-item{
+    height: 100%;
+}
+
+.navbar-toggler-icon{
+    color: #C23A42 !important;
+}
+@media screen and (max-width: 920px){
+    .inner_body_special{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 768px){
+    .inner_body_special{
+        width: 97%;
+    }
 }
