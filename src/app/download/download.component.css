@@ -25,15 +25,16 @@ form .form-control{
     border-radius: 0;
     background-color: #F34A53;
 }
-/* .btn-outline-secondary:hover{
-    background-color: #C23A42;
-}
-.btn-outline-secondary:hover .input-group{
-    border-color: #C23A42 !important;
-} */
 .input-group:hover{
     border-color: #C23A42;
 }
 .input-group:hover .btn-outline-secondary{
     background-color: #C23A42;
+}
+.card p{
+    font-size: 14px;
+}
+.card p a{
+    text-decoration: none;
+    color: #C23A42;
 }
